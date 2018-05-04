@@ -1,0 +1,194 @@
+2018-03-01 15:27:17 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff934ab10a0; archive(resolved)='<IDEArchive: 0x7ff951928570>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team(resolved)='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff934ab10a0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff934df16c0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff94d9a7920; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff934d22b10; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff9358792b0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff934d416d0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff94ffcd8d0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff951a38990; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff934845fd0; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='<IDEProvisioningBasicTeam 0x7ff945e55ff0: teamID: 44AM568PKL, teamName: Andrii Nebohin>'>
+	<IDEDistributionContext: 0x7ff950f72750; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff94b5e05d0>', team='(null)'>
+	<IDEDistributionContext: 0x7ff948703630; archive = '<IDEArchive: 0x7ff951928570>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff934ab10a0>
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionCopyItemStep
+2018-03-01 15:27:17 +0000  Running /usr/bin/ditto '-V' '/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/Products/Applications/SprungFit.app' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/Payload/SprungFit.app'
+2018-03-01 15:27:17 +0000  >>> Copying /Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/Products/Applications/SprungFit.app 
+2018-03-01 15:27:17 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-03-01 15:27:17 +0000  9145 bytes for ./_CodeSignature/CodeResources
+copying file ./archived-expanded-entitlements.xcent ... 
+358 bytes for ./archived-expanded-entitlements.xcent
+2018-03-01 15:27:17 +0000  copying file ./assets/node_modules/react-navigation/src/views/assets/back-icon-mask.png ... 
+1887 bytes for ./assets/node_modules/react-navigation/src/views/assets/back-icon-mask.png
+copying file ./assets/node_modules/react-navigation/src/views/assets/back-icon.png ... 
+2018-03-01 15:27:17 +0000  491 bytes for ./assets/node_modules/react-navigation/src/views/assets/back-icon.png
+copying file ./assets/node_modules/react-navigation/src/views/assets/back-icon@2x.png ... 
+2018-03-01 15:27:17 +0000  966 bytes for ./assets/node_modules/react-navigation/src/views/assets/back-icon@2x.png
+copying file ./assets/node_modules/react-navigation/src/views/assets/back-icon@3x.png ... 
+2018-03-01 15:27:17 +0000  1848 bytes for ./assets/node_modules/react-navigation/src/views/assets/back-icon@3x.png
+2018-03-01 15:27:17 +0000  copying file ./assets/src/images/photo.png ... 
+2018-03-01 15:27:17 +0000  6534 bytes for ./assets/src/images/photo.png
+2018-03-01 15:27:17 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
+2018-03-01 15:27:17 +0000  3101 bytes for ./Base.lproj/LaunchScreen.nib
+copying file ./embedded.mobileprovision ... 
+2018-03-01 15:27:17 +0000  11345 bytes for ./embedded.mobileprovision
+copying file ./Entypo.ttf ... 
+2018-03-01 15:27:17 +0000  65584 bytes for ./Entypo.ttf
+copying file ./EvilIcons.ttf ... 
+2018-03-01 15:27:17 +0000  13128 bytes for ./EvilIcons.ttf
+copying file ./FontAwesome.ttf ... 
+2018-03-01 15:27:17 +0000  165548 bytes for ./FontAwesome.ttf
+copying file ./Foundation.ttf ... 
+2018-03-01 15:27:17 +0000  56976 bytes for ./Foundation.ttf
+copying file ./Info.plist ... 
+2018-03-01 15:27:17 +0000  1462 bytes for ./Info.plist
+copying file ./Ionicons.ttf ... 
+2018-03-01 15:27:17 +0000  143936 bytes for ./Ionicons.ttf
+copying file ./main.jsbundle ... 
+2018-03-01 15:27:17 +0000  1722430 bytes for ./main.jsbundle
+copying file ./main.jsbundle.meta ... 
+2018-03-01 15:27:17 +0000  21 bytes for ./main.jsbundle.meta
+copying file ./MaterialIcons.ttf ... 
+2018-03-01 15:27:17 +0000  128180 bytes for ./MaterialIcons.ttf
+copying file ./Octicons.ttf ... 
+2018-03-01 15:27:17 +0000  43920 bytes for ./Octicons.ttf
+copying file ./PkgInfo ... 
+2018-03-01 15:27:17 +0000  8 bytes for ./PkgInfo
+copying file ./Roboto.ttf ... 
+2018-03-01 15:27:17 +0000  145348 bytes for ./Roboto.ttf
+2018-03-01 15:27:17 +0000  copying file ./Roboto_medium.ttf ... 
+2018-03-01 15:27:17 +0000  137308 bytes for ./Roboto_medium.ttf
+copying file ./rubicon-icon-font.ttf ... 
+2018-03-01 15:27:17 +0000  10208 bytes for ./rubicon-icon-font.ttf
+copying file ./SimpleLineIcons.ttf ... 
+2018-03-01 15:27:17 +0000  54056 bytes for ./SimpleLineIcons.ttf
+copying file ./SprungFit ... 
+2018-03-01 15:27:17 +0000  22787920 bytes for ./SprungFit
+copying file ./Zocial.ttf ... 
+2018-03-01 15:27:17 +0000  25552 bytes for ./Zocial.ttf
+2018-03-01 15:27:17 +0000  2018-03-01 15:27:17 +0000  /usr/bin/ditto exited with 0
+2018-03-01 15:27:17 +0000  
+
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-03-01 15:27:17 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-03-01 15:27:17 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-03-01 15:27:17 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-03-01 15:27:18 +0000  Running /usr/bin/ditto '-V' '/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/BCSymbolMaps/F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/BCSymbolMaps/F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap'
+2018-03-01 15:27:18 +0000  >>> Copying /Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/BCSymbolMaps/F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap 
+2018-03-01 15:27:18 +0000  copying file ./F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap ... 
+2018-03-01 15:27:18 +0000  764563 bytes for ./F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap
+2018-03-01 15:27:18 +0000  2018-03-01 15:27:18 +0000  /usr/bin/ditto exited with 0
+2018-03-01 15:27:18 +0000  
+
+2018-03-01 15:27:18 +0000  Running /usr/bin/ditto '-V' '/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/BCSymbolMaps/49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/BCSymbolMaps/49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap'
+2018-03-01 15:27:18 +0000  >>> Copying /Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/BCSymbolMaps/49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap 
+2018-03-01 15:27:18 +0000  copying file ./49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap ... 
+2018-03-01 15:27:18 +0000  772867 bytes for ./49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap
+2018-03-01 15:27:18 +0000  2018-03-01 15:27:18 +0000  /usr/bin/ditto exited with 0
+
+2018-03-01 15:27:18 +0000  
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionSymbolsStep
+2018-03-01 15:27:18 +0000  Excluding symbols for SprungFit.app
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionAppThinningStep
+2018-03-01 15:27:18 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionODRStep
+2018-03-01 15:27:18 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-03-01 15:27:18 +0000  Running /usr/bin/xattr '-crs' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/Payload/SprungFit.app'
+2018-03-01 15:27:19 +0000  
+2018-03-01 15:27:19 +0000  2018-03-01 15:27:19 +0000  /usr/bin/xattr exited with 0
+2018-03-01 15:27:19 +0000  Processing step: IDEDistributionCodesignStep
+
+2018-03-01 15:27:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7ff952aa29b0 'fit.Sprung' '<DVTFilePath:0x7ff950883050:'/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/Products/Applications/SprungFit.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7ff950ab3750>: {
+}
+2018-03-01 15:27:19 +0000  Entitlements for <IDEDistributionItem: 0x7ff952aa29b0 'fit.Sprung' '<DVTFilePath:0x7ff950883050:'/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/Products/Applications/SprungFit.app'>'>: {
+    "application-identifier" = "44AM568PKL.fit.Sprung";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 44AM568PKL;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "44AM568PKL.fit.Sprung"
+    );
+}
+2018-03-01 15:27:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff952aa29b0 'fit.Sprung' '<DVTFilePath:0x7ff950883050:'/Users/andrey/Library/Developer/Xcode/Archives/2018-03-01/SprungFit 3-1-18, 6.58 AM.xcarchive/Products/Applications/SprungFit.app'>'> to: /var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/entitlementssk0z9i
+2018-03-01 15:27:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '26A23C1001DE44CD681A32652243BDCFE1332E89' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/entitlementssk0z9i' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/Payload/SprungFit.app'
+2018-03-01 15:27:25 +0000  /var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root/Payload/SprungFit.app: signed app bundle with Mach-O universal (armv7 arm64) [fit.Sprung]
+2018-03-01 15:27:25 +0000  
+2018-03-01 15:27:25 +0000  
+2018-03-01 15:27:25 +0000  
+2018-03-01 15:27:25 +0000  2018-03-01 15:27:25 +0000  /usr/bin/codesign exited with 0
+2018-03-01 15:27:25 +0000  Processing step: IDEDistributionStreamingZipItemStep
+
+2018-03-01 15:27:25 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-03-01 15:27:25 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-03-01 15:27:25 +0000  
+2018-03-01 15:27:25 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root' '/var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Packages/SprungFit.ipa'
+2018-03-01 15:27:25 +0000  >>> Copying /var/folders/8r/s8k2pwmd7hl9mrb_wk2chych0000gn/T/XcodeDistPipeline.0cz/Root 
+2018-03-01 15:27:25 +0000  copying file ./BCSymbolMaps/49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap ... 
+2018-03-01 15:27:25 +0000  772867 bytes for ./BCSymbolMaps/49D35DDD-2506-34E7-B80E-8ED77D74F38E.bcsymbolmap
+2018-03-01 15:27:25 +0000  copying file ./BCSymbolMaps/F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap ... 
+2018-03-01 15:27:25 +0000  764563 bytes for ./BCSymbolMaps/F707075A-7D40-3DBC-BCBB-041341FB5519.bcsymbolmap
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/_CodeSignature/CodeResources ... 
+2018-03-01 15:27:25 +0000  9145 bytes for ./Payload/SprungFit.app/_CodeSignature/CodeResources
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/archived-expanded-entitlements.xcent ... 
+2018-03-01 15:27:25 +0000  358 bytes for ./Payload/SprungFit.app/archived-expanded-entitlements.xcent
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon-mask.png ... 
+2018-03-01 15:27:25 +0000  1887 bytes for ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon-mask.png
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon.png ... 
+2018-03-01 15:27:25 +0000  491 bytes for ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon.png
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon@2x.png ... 
+966 bytes for ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon@2x.png
+copying file ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon@3x.png ... 
+2018-03-01 15:27:25 +0000  1848 bytes for ./Payload/SprungFit.app/assets/node_modules/react-navigation/src/views/assets/back-icon@3x.png
+copying file ./Payload/SprungFit.app/assets/src/images/photo.png ... 
+6534 bytes for ./Payload/SprungFit.app/assets/src/images/photo.png
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/Base.lproj/LaunchScreen.nib ... 
+2018-03-01 15:27:25 +0000  3101 bytes for ./Payload/SprungFit.app/Base.lproj/LaunchScreen.nib
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/embedded.mobileprovision ... 
+2018-03-01 15:27:25 +0000  9357 bytes for ./Payload/SprungFit.app/embedded.mobileprovision
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/Entypo.ttf ... 
+2018-03-01 15:27:25 +0000  65584 bytes for ./Payload/SprungFit.app/Entypo.ttf
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/EvilIcons.ttf ... 
+2018-03-01 15:27:25 +0000  13128 bytes for ./Payload/SprungFit.app/EvilIcons.ttf
+copying file ./Payload/SprungFit.app/FontAwesome.ttf ... 
+2018-03-01 15:27:25 +0000  165548 bytes for ./Payload/SprungFit.app/FontAwesome.ttf
+copying file ./Payload/SprungFit.app/Foundation.ttf ... 
+2018-03-01 15:27:25 +0000  56976 bytes for ./Payload/SprungFit.app/Foundation.ttf
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/Info.plist ... 
+2018-03-01 15:27:25 +0000  1462 bytes for ./Payload/SprungFit.app/Info.plist
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/Ionicons.ttf ... 
+2018-03-01 15:27:25 +0000  143936 bytes for ./Payload/SprungFit.app/Ionicons.ttf
+2018-03-01 15:27:25 +0000  copying file ./Payload/SprungFit.app/main.jsbundle ... 
+2018-03-01 15:27:26 +0000  1722430 bytes for ./Payload/SprungFit.app/main.jsbundle
+copying file ./Payload/SprungFit.app/main.jsbundle.meta ... 
+2018-03-01 15:27:26 +0000  21 bytes for ./Payload/SprungFit.app/main.jsbundle.meta
+copying file ./Payload/SprungFit.app/MaterialIcons.ttf ... 
+2018-03-01 15:27:26 +0000  128180 bytes for ./Payload/SprungFit.app/MaterialIcons.ttf
+copying file ./Payload/SprungFit.app/Octicons.ttf ... 
+2018-03-01 15:27:26 +0000  43920 bytes for ./Payload/SprungFit.app/Octicons.ttf
+copying file ./Payload/SprungFit.app/PkgInfo ... 
+8 bytes for ./Payload/SprungFit.app/PkgInfo
+copying file ./Payload/SprungFit.app/Roboto.ttf ... 
+2018-03-01 15:27:26 +0000  145348 bytes for ./Payload/SprungFit.app/Roboto.ttf
+copying file ./Payload/SprungFit.app/Roboto_medium.ttf ... 
+2018-03-01 15:27:26 +0000  137308 bytes for ./Payload/SprungFit.app/Roboto_medium.ttf
+copying file ./Payload/SprungFit.app/rubicon-icon-font.ttf ... 
+10208 bytes for ./Payload/SprungFit.app/rubicon-icon-font.ttf
+copying file ./Payload/SprungFit.app/SimpleLineIcons.ttf ... 
+2018-03-01 15:27:26 +0000  54056 bytes for ./Payload/SprungFit.app/SimpleLineIcons.ttf
+2018-03-01 15:27:26 +0000  copying file ./Payload/SprungFit.app/SprungFit ... 
+2018-03-01 15:27:27 +0000  19003376 bytes for ./Payload/SprungFit.app/SprungFit
+copying file ./Payload/SprungFit.app/Zocial.ttf ... 
+2018-03-01 15:27:27 +0000  25552 bytes for ./Payload/SprungFit.app/Zocial.ttf
+2018-03-01 15:27:27 +0000  
+2018-03-01 15:27:27 +0000  2018-03-01 15:27:27 +0000  /usr/bin/ditto exited with 0
+2018-03-01 15:27:27 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-03-01 15:27:27 +0000  
+
+2018-03-01 15:27:27 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

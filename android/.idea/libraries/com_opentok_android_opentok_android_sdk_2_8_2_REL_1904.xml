@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.opentok.android:opentok-android-sdk-2.8.2-REL-1904">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/0235f0922c1a6a3c3bf82c36ef8132749e81b91f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/0235f0922c1a6a3c3bf82c36ef8132749e81b91f/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

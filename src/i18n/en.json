@@ -1,0 +1,113 @@
+{
+   "App": {
+      "version": "Version",
+      "week": {
+         "mo": { "short": "mo", "full": "Monday" },
+         "tu": { "short": "tu", "full": "Tuesday" },
+         "we": { "short": "we", "full": "Wednesday" },
+         "th": { "short": "th", "full": "Thursday" },
+         "fr": { "short": "fr", "full": "Friday" },
+         "sa": { "short": "sa", "full": "Saturday" },
+         "su": { "short": "su", "full": "Sunday" },
+      }
+   },
+   "Sidebar": {
+      "user": {
+         "home": "Home",
+         "myBookedClasses": "My Booked Classes",
+         "requestClass": "Request Class",
+         "settings": "Settings",
+         "sendFeedback": "Send Feedback",
+         "howto": "How to",
+         "logout": "Log Out",
+      },
+      "trainer": {
+         "home": "Home",
+         "myScheduledClasses": "My Scheduled Classes",
+         "postClass": "Post Class",
+         "logout": "Log Out",
+      }
+   },
+   "Profile": {
+      "header": "Profile",
+      "form": {
+         "firstNameLabel": "First Name",
+         "firstNamePlaceholder": "John",
+         "lastNameLabel": "Last Name",
+         "lastNamePlaceholder": "Smith",
+         "ageLabel": "Age",
+         "agePlaceholder": "36",
+         "sexLabel": "Sex",
+         "emailLabel": "Email",
+         "emailPlaceholder": "johnsmith@gmail.com",
+      }
+   },
+   "RequestClass": {
+      "header": "Request Class",
+      "form": {
+         "classTypeLabel": "Class Type",
+         "classTypePlaceholder": "Ex. Yoga",
+         "whatLikeLabel": "What would you like to do in class?",
+         "whatLikePlaceholder": "Ex. Meditate with several people",
+         "durationLabel": "Duration",
+         "submit": "Submit",
+      }
+   },
+   "Onboarding": {
+      "logoTitle": "Sprung",
+      "subheader": "Home based interactive fitness classes",
+      //"footerText": "Are you a trainer?",
+     // "footerLink": "Sign Up or Sign In here",
+      "footerText": "",
+      "footerLink": "",
+      "form": {
+         "usernamePlaceholder": "Email",
+         "passwordPlaceholder": "Password",
+         "btnSignup": "Sign Up",
+         "btnSignin": "Sign In",
+      }
+   },
+   "TrainerSignup": {
+      "header": "Trainer Sign Up",
+      "form": {
+         "firstName": "First Name",
+         "lastName": "Last Name",
+         "email": "Email",
+         "password": "Password",
+         "submit": "Trainer Sign Up",
+      },
+      "bottomText": "Already have a Trainer Account?",
+      "bottomLink": "Sign In here"
+   },
+   "TrainerSignin": {
+      "header": "Trainer Sign In",
+      "form": {
+         "usernamePlaceholder": "Username",
+         "passwordPlaceholder": "Password",
+         "submit": "Trainer Sign In",
+      },
+   },
+   "TrainerPostClass": {
+      "header": "Post a Class",
+      "form": {
+         "categoryLabel": "Category",
+         "titleLabel": "Title",
+         "titlePlaceholder": "Ex. Yoga time with John",
+         "descriptionLabel": "Description",
+         "descriptionPlaceholder": "Ex. Slow and relaxing stretches with...",
+         "interactiveLabel": "Interactive?",
+         "startsLabel": "Starts",
+         "endsLabel": "Ends",
+         "priceLabel": "Price",
+         "maxSpotsLabel": "Max spots",
+
+         "submit": "Submit",
+      }
+   },
+   "Calendar": {
+      "header": "Sprung",
+      "joinClass": "Join Class",
+      "bookClass": "Remind About Class",
+      "minutes": "Minutes",
+   },
+}

@@ -1,0 +1,39 @@
+PODS:
+  - OpenTok (2.13.0)
+  - React (0.53.3):
+    - React/Core (= 0.53.3)
+  - React/Core (0.53.3):
+    - yoga (= 0.53.3.React)
+  - RNOpenTok (2.0.1):
+    - OpenTok
+    - React
+  - RNVectorIcons (4.4.3):
+    - React
+  - yoga (0.53.3.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - RNOpenTok (from `../node_modules/react-native-opentok/ios`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  RNOpenTok:
+    :path: ../node_modules/react-native-opentok/ios
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+
+SPEC CHECKSUMS:
+  OpenTok: 9fa8d108284d751f284bf294a91c20529bde7df6
+  React: af66244a7d630be2aef03b4ddfe3570e4eff39fc
+  RNOpenTok: d1c4a4b8ebfa587c038a71c149b2b3821b11ccdf
+  RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
+  yoga: 55da126afc384965b96bff46652464373b330add
+
+PODFILE CHECKSUM: db3fcc6cdccda5a960036d0dd5d5af319bcf9974
+
+COCOAPODS: 1.4.0
